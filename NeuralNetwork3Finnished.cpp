@@ -160,7 +160,7 @@ void Net::void getResults(vector<double> &resultVals)
 
 void Net::backProp(const vector<double> &targetVals)
 {
- // calculate overall net errors (RMS output of neuron errors
+ // calculate overall net errors (RMS output of neuron errors)
 
     layer &outputLayer = m_layers.back();
     m_error = 0.0;
